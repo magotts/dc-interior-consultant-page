@@ -26,6 +26,7 @@ body {
   font-weight: 200;
 }
 
+
 .navbar {
   list-style-type: none;
   display: inline;
@@ -55,19 +56,32 @@ section {
   align-items: center;
   margin: 5rem;
 }
+
 .viewimg {
   max-width: 100%;
   height: auto;
 }
 
+.left {
+  margin: 2rem;
+
+}
+
 .left h2 {
   font-family: "Lora", serif;
+  font-size: 48px;
 }
 
 .left p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-size: 24px;
 }
+
+.material-icons {
+  cursor: pointer;
+}
+
 .right {
   margin: 1rem 0 2rem;
   position: relative;
